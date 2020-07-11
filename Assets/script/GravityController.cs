@@ -10,7 +10,7 @@ public class GravityController : MonoBehaviour {
         if (Application.isMobilePlatform) {
             vector.x = Input.acceleration.x;
             vector.y = Input.acceleration.y;
-            vector.z = input.acceleration.z;
+            vector.z = Input.acceleration.z;
         } else {
 
             vector.x = Input.GetAxis ("Horizontal");

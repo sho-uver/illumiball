@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/illumiball.unity
+    guid: 1271835975b27fa4f859199e993d8d9b
   m_configObjects: {}
